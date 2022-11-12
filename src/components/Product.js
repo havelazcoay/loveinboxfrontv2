@@ -17,6 +17,7 @@ import { CartContext } from '../CartContext';
 import { Button, Row, Col, Form } from "react-bootstrap";
 import '../hojas-de-estilo/navBar.css';
 import '../hojas-de-estilo/Store.css';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -107,7 +108,7 @@ function Product(props) {
             <Button variant="danger" onClick={() => cart.deleteFromCart(product.id)} className="my-2">Remove from cart</Button>
           </>
           :
-          <Button variant="primary" onClick={() => cart.addOneToCart(product.id)}>Add To Cart</Button>
+          <Button variant="primary" onClick={() => cart.addOneToCart(product.id)}><ShoppingCartIcon />Add To Cart</Button>
         }
       </CardActions>
       </div>
