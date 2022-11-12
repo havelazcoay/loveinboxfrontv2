@@ -2,6 +2,7 @@ import {Button, Container, Navbar, Modal} from 'react-bootstrap';
 import { useState, useContext } from 'react';
 import { CartContext } from "../CartContext";
 import CartProduct from './CartProduct';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function NavbarComponent() {
     const cart = useContext(CartContext);
@@ -32,7 +33,7 @@ function NavbarComponent() {
         <>
 
             <Navbar expand="sm" align-items="stretch" justify-content="space-around" flex-wrap="wrap" >
-                <Navbar.Brand href="/" >Ecommerce Store</Navbar.Brand>
+                <Navbar.Brand href="/" >Love in Box - Ecommerce Store</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Button onClick={handleShow}>Cart ({productsCount} Items)</Button>
