@@ -15,6 +15,7 @@ import { Account} from "./pages/Account";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import { ForgotPassword } from "./pages/ForgotPassword";
+import FrequentQuestions from "./pages/FrequentQuestions";
 import { Sidebar } from "./pages/Sidebar";
 // localhost:3000 -> Home
 // localhost:3000/success -> Success
@@ -42,6 +43,7 @@ function App() {
             <Route path="/Register" element={<Register />} />
             <Route path="/ForgotPassword" element={<ForgotPassword />} />
             <Route path="/Admin" element={<Admin />} />
+            <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
           </Routes>
         </BrowserRouter>
         
