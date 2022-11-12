@@ -1,0 +1,43 @@
+.contenedor-Tarjeta{
+  width: 1170px;
+  height: 300px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.imagen-Tarjeta{
+  height: 300px;
+  width: 300px;
+
+}
+
+.contenedor-texto-tarjeta{
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding: 40px;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-tarjeta{
+  font-size: 1.4rem;
+  /*font-weight: bold;*/
+}
+
+.cargo-tarjeta{
+  font-size: 1.2rem;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  /*font-weight: bolder;*/
+}
+
+.texto-tarjeta{
+  font-size: 1.1rem;
+  text-align: justify;
+}

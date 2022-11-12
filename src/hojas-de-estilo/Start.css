@@ -1,0 +1,85 @@
+.start-main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    width: 1678px;
+}
+.start-img-left{
+    padding: 200px 220px 280px 220px;
+    justify-content: center;
+    display: flex;
+    float: left;
+    height: 100vh;
+    width: 839px;
+    background-image: url(https://cdn.wallpapersafari.com/41/60/wJ9STo.jpg);
+    background-position: center
+}
+.start-container-image{
+    background-color: rgb(255, 1, 1);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+}
+.start-form-right{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 220px 220px 260px 220px;
+    height: 100vh;
+    width: 839px;
+    background-color: rgb(200, 130, 64);
+
+}
+.start-sub-form-right{
+    display: flex;
+    justify-content: center;
+    height: 398px;
+    width: 398px;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207) ;
+    padding-top: 30px;
+    border-radius : 60px;
+    background-color: rgb(255, 255, 255);
+}
+.start-imgs{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    }
+
+.start-profile{
+    align-items: center;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius : 200px
+}
+.start-init{
+    align-items: center;
+    max-height: 50vh;
+    max-width: 439px;
+}
+.start-email{
+    width: 25px;
+    height: 25px;
+    padding: 14px 0px 0px 25px;
+}
+.start-name{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.start-space{
+    padding-top: 15px;
+}
+.start-link{
+    font-size: 20px;
+    font-weight: 20px;
+}
+.start-button{
+    width: 300px;
+    height: 50px;
+    border-radius: 68px;
+    background-color: rgb(177, 3, 252);
+    color:white;
+    font-size: 20px;
+    border: none;
+}
