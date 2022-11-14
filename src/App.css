@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+:root{
+  --mainBlue: rgb(71, 98, 255);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -43,6 +47,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
+
   display: flex;
   width: 100vw;
   padding: 1rem 1rem;
@@ -64,3 +69,4 @@
   width: 100vw;
   height: 480px;
 }
+
