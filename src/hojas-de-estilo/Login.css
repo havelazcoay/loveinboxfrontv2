@@ -1,7 +1,8 @@
 .login-main{
+
     text-align: center;
     justify-content: center;
-    /* display: flex; */
+    display: flex;
     padding: 180px 640px 280px 640px;
     background-color: rgb(200, 130, 64);
 }

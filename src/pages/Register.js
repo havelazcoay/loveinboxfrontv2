@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import LoveInBoxWeb from "../Imagenes/LoveInBoxWeb.jpg";
+import { db } from "../firebase";
+import { collection, doc, addDoc, getDocs, updateDoc, deleteDoc } from "firebase/firestore";
 import '../hojas-de-estilo/Register.css';
 
 export const Register = () => {
@@ -12,7 +14,8 @@ export const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [address, setAddress] = useState("");
-  const [otherinfo, setOtherinfo] = useState("");
+  const usersCollectionsRef = collection(db, "users");
+  
 
   const signup = (e) =>{
     e.preventDefault();
@@ -21,6 +24,15 @@ export const Register = () => {
       if(auth){
         navigate("/")}
       }).catch(err=>alert(err.message))}
+  
+  const createUser = async () =>{
+    await addDoc(usersCollectionsRef, {name: name, surname: surname, email: email, address: address});
+    };
+
+  const register = (e) =>{
+    signup(e);
+    createUser();
+    };
 
 
   return(
@@ -37,25 +49,22 @@ export const Register = () => {
               <h1>LoveInBox</h1>
             </div>
             <div>
-              <input type="text" placeholder="Name" className="register-input"  value={name}  onChange={e=>setName(e.target.value)}></input>
+              <input type="text" placeholder="Name" className="register-input"    onChange={(event) =>{setName(event.target.value);}}></input>
             </div>
             <div className="register-space">
-              <input type="text" placeholder="Surname" className="register-input"  value={surname}  onChange={e=>setSurname(e.target.value)}></input>
+              <input type="text" placeholder="Surname" className="register-input"    onChange={(e)=>setSurname(e.target.value)}></input>
             </div>
             <div className="register-space">
-              <input type="text" placeholder="E-Mail" className="register-input"  value={email}  onChange={e=>setEmail(e.target.value)}></input>
+              <input type="text" placeholder="E-Mail" className="register-input"    onChange={(e)=>setEmail(e.target.value)}></input>
             </div>
             <div className="register-space">
-              <input type="text" placeholder="Password" className="register-input"  value={password}  onChange={e=>setPassword(e.target.value)}></input>
+              <input type="text" placeholder="Password" className="register-input"    onChange={(e)=>setPassword(e.target.value)}></input>
             </div>
             <div className="register-space">
-              <input type="text" placeholder="Address" className="register-input"  value={address}  onChange={e=>setAddress(e.target.value)}></input>
+              <input type="text" placeholder="Address" className="register-input"    onChange={(e)=>setAddress(e.target.value)}></input>
             </div>
             <div className="register-space">
-              <input type="text" placeholder="Other info" className="register-input"  value={otherinfo}  onChange={e=>setOtherinfo(e.target.value)}></input>
-            </div>
-            <div className="register-space">
-             <button className="register-button" onClick ={signup}>Register</button>
+             <button className="register-button" onClick ={register}>Register</button>
             </div>
             <div className="register-space">
               <p className="register-link">

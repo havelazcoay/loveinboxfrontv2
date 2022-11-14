@@ -9,7 +9,8 @@ import{
   FaFacebookSquare,
   FaInstagramSquare,
   FaWhatsappSquare,
-  FaQuestion
+  FaQuestion,
+  FaUserCircle
 }from 'react-icons/fa';
 
 
@@ -36,16 +37,19 @@ export default function NavBar1(){
             <a href="/Store"><FaShoppingBag/>Store</a>
           </li>
           <li>
-            < a href="/Account"><FaUserAlt/>Account</a>
-          </li>
-          <li>
             < a href="/Test"><FaThList/>Test</a>
           </li>
           <li>
             <a href="/About"><FaCommentAlt/>About</a>
           </li>
           <li>
-            <a href="/FrequentQuestions"><FaQuestion/>Preguntas Frecuentes</a>
+            <a href="/FrequentQuestions"><FaQuestion/>Frequent Questions</a>
+          </li>
+          <li>
+            < a href="/Account"><FaUserAlt/>Account</a>
+          </li>
+          <li>
+            <a href="/Profile"><FaUserCircle/>Profile</a>
           </li>
       </ul>
   </div>

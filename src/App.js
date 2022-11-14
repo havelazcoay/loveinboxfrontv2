@@ -8,7 +8,10 @@ import Cancel from './pages/Cancel';
 import Store from './pages/Store';
 import Success from './pages/Success';
 import About from "./pages/About";
-import Admin from "./pages/Admin";
+import { Administrator } from "./pages/Administrator";
+import { User } from "./pages/User";
+import { Prueba } from "./pages/Prueba";
+import { Profile } from "./pages/Profile";
 import CartProvider from './CartContext';
 import Navbar1 from "./components/NavBar1"; 
 import { Account} from "./pages/Account";
@@ -42,7 +45,10 @@ function App() {
             <Route path="/Login" element={<Login />} />
             <Route path="/Register" element={<Register />} />
             <Route path="/ForgotPassword" element={<ForgotPassword />} />
-            <Route path="/Admin" element={<Admin />} />
+            <Route path="/Administrator" element={<Administrator />} />
+            <Route path="/User" element={<User />} />
+            <Route path="/Prueba" element={<Prueba />} />
+            <Route path="/Profile" element={<Profile />} />
             <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
           </Routes>
         </BrowserRouter>

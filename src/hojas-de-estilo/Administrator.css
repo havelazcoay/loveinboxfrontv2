@@ -1,0 +1,41 @@
+.administrator-main{
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    padding: 180px 640px 280px 640px;
+    background-color: rgb(200, 130, 64);
+}
+.administrator-input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px rgb(136, 136, 136);
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 20px;
+}
+.administrator-button{
+    width: 300px;
+    height: 50px;
+    border-radius: 68px;
+    background-color: rgb(177, 3, 252);
+    color:white;
+    font-size: 20px;
+    border: none;
+}
+.administrator-h1{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px rgb(136, 136, 136);
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
