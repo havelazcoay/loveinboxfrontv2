@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+:root{
+  --mainBlue: rgb(71, 98, 255);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -64,3 +68,4 @@
   width: 100vw;
   height: 480px;
 }
+

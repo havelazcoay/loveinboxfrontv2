@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Admin from "./pages/Admin";
 import CartProvider from './CartContext';
 import Navbar1 from "./components/NavBar1"; 
+import Footer from "./components/Footer";
 import { Account} from "./pages/Account";
 import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
@@ -45,8 +46,9 @@ function App() {
           </Routes>
         </BrowserRouter>
         
+        
       </div>
-
+      <Footer/>
     </CartProvider>
   );
 }
