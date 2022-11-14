@@ -10,7 +10,7 @@ import Success from './pages/Success';
 import About from "./pages/About";
 import { Administrator } from "./pages/Administrator";
 import { User } from "./pages/User";
-import { Prueba } from "./pages/Prueba";
+
 import { Profile } from "./pages/Profile";
 import CartProvider from './CartContext';
 import Navbar1 from "./components/NavBar1"; 
@@ -48,7 +48,7 @@ function App() {
             <Route path="/ForgotPassword" element={<ForgotPassword />} />
             <Route path="/Administrator" element={<Administrator />} />
             <Route path="/User" element={<User />} />
-            <Route path="/Prueba" element={<Prueba />} />
+
             <Route path="/Profile" element={<Profile />} />
             <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
           </Routes>

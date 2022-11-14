@@ -16,7 +16,7 @@ export default function Home() {
           <Example />
         </div>
         <div>
-          <p> Los Mejor Valorados!</p>
+          <p> Los Mejor Valorados!  </p>
           <Row xs={1} md={4} className="g-4">
                 {productsArray.map((product, idx) => (
                     <Col align="center" key={idx}>
