@@ -18,10 +18,10 @@
     line-height: 34px;
     padding:e 18px;
     margin: 8px;
-    background: black
+    background: rgb(5, 2, 170)
 }
 .category ul li a{
-    color: black;
+    color: rgb(65, 62, 253);
     text-decoration: none;
     font-size: 11px;
     line-height: 27px;
