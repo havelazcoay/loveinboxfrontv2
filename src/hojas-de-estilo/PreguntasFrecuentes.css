@@ -1,0 +1,30 @@
+*{margin:8px; padding:0px}
+
+
+.PreguntasFrecuentes{
+    text-align: center;
+    /* width: 100%; */
+    background: rgb(255, 255, 255);
+    /* width: 800px; */
+    /* margin: 108px auto 0 auto; */
+}
+.PreguntasFrecuentes li{
+    list-style-type: none;
+}
+.category h3{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 34px;
+    padding:e 18px;
+    margin: 8px;
+    background: black
+}
+.category ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 27px;
+    display: block;
+    padding: 0 15px;
+}
