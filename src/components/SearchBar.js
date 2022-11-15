@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { productsArray } from "../productsStore";
 import Product from "./Product";
+import { Row, Col } from 'react-bootstrap';
 
 function SearchBar() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -23,12 +24,13 @@ function SearchBar() {
                                     return val;
                                 }
                             })
-                            .map((val) => {
+                            .map((product, val) => {
                                 return (
                                     <div className="template" key={val.id}>
-                                        <img src={val.image} alt="" />
-                                        <h3>{val.name}</h3>
-                                        <p className="price">{val.price}</p>
+
+                                            <Col align="center" key={val.id}>
+                                                <Product product={product} />
+                                            </Col>
 
                                     </div>
                                 )
