@@ -21,6 +21,7 @@ import { Register } from "./pages/Register";
 import { ForgotPassword } from "./pages/ForgotPassword";
 import FrequentQuestions from "./pages/FrequentQuestions";
 import { Sidebar } from "./pages/Sidebar";
+import Test from './pages/Test';
 // localhost:3000 -> Home
 // localhost:3000/success -> Success
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/ForgotPassword" element={<ForgotPassword />} />
             <Route path="/Administrator" element={<Administrator />} />
             <Route path="/User" element={<User />} />
+            <Route path="/Test" element={<Test />} />
 
             <Route path="/Profile" element={<Profile />} />
             <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
