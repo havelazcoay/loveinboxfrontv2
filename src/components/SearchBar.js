@@ -8,13 +8,14 @@ function SearchBar() {
     return (
         <>
 
-            <div className="templateContainer" align="center" >
+            <div align="center" >
                 <div className="searchInput_Container">
                     <input id="searchInput" type="text" placeholder="Search here..." onChange={(event) => {
                         setSearchTerm(event.target.value);
                     }} />
                 </div>
                 <div className="template_Container">
+                <Row xs={1} md={4} className="g-4">
                     {
                         productsArray
                             .filter((val) => {
@@ -26,16 +27,15 @@ function SearchBar() {
                             })
                             .map((product, val) => {
                                 return (
-                                    <div className="template" key={val.id}>
-
+                                    <div className="template" key={val.id} >
                                             <Col align="center" key={val.id}>
                                                 <Product product={product} />
                                             </Col>
-
                                     </div>
                                 )
                             })
                     }
+                    </Row>
                 </div>
             </div>
         </>
