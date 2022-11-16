@@ -9,47 +9,47 @@ function Footer() {
       <div className="footer-middle">
         <div className="containerx">
           <div className="row">
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 text-center">
               {/* column 1 */}
-              <h4> lorem ipsum</h4>
+              <h4> Love in Box</h4>
               <ul className="list-unstyled">
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
+                <img src={"LoveInBoxMarketing.png"} width="100px" />
+
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 text-center justify-content-around align-items-center">
               {/* column 2 */}
-              <h4> lorem ipsum</h4>
+              <h4> Categories</h4>
               <ul className="list-unstyled">
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
+
+                <li>Action Figures</li>
+                <li>Toycars</li>
+                <li>Barbie dolls</li>
+                <li>Funkos</li>
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 text-center">
               {/* column 3 */}
-              <h4> lorem ipsum</h4>
+              <h4> Account</h4>
               <ul className="list-unstyled">
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
+                <li>My account</li>
+                <li>My cart</li>
+                <li>My orders</li>
+                <li>sing out</li>
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6">
+            <div className="col-md-3 col-sm-6 text-center">
               {/* column 4 */}
-              <h4> lorem ipsum</h4>
+              <h4> Contact us</h4>
               <ul className="list-unstyled">
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
-                <li>lorem impsum</li>
+                <li>Love in Box co</li>
+                <li>Bogota - Colombia</li>
+                <li>3131112244</li>
+                <li>Monday - Friday</li>
+                <li>8Am - 6Pm</li>
               </ul>
             </div>
           </div>

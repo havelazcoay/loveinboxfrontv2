@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { productsArray } from "../productsStore";
 import Product from "./Product";
 import { Row, Col } from 'react-bootstrap';
+import "../hojas-de-estilo/seachbar.css";
+import { height } from "@mui/system";
 
 function SearchBar() {
     const [searchTerm, setSearchTerm] = useState("");
@@ -9,8 +11,8 @@ function SearchBar() {
         <>
 
             <div align="center" >
-                <div className="searchInput_Container">
-                    <input id="searchInput" type="text" placeholder="Search here..." onChange={(event) => {
+                <div className="seachbar" >
+                    <input  id="searchInput" type="text" placeholder="Search here..." style={{width: "40pc"}} onChange={(event) => {
                         setSearchTerm(event.target.value);
                     }} />
                 </div>
