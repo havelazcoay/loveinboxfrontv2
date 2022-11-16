@@ -31,6 +31,8 @@ function NavbarComponent() {
 
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
 
+    
+
     return (
         <>
 
