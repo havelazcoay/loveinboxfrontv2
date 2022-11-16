@@ -40,7 +40,7 @@ function NavbarComponent() {
                 <Navbar.Brand href="/" >Love in Box - Ecommerce Store</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
-                    <IconButton aria-label="ShoppingCartIcon" onClick={handleShow}><ShoppingCartIcon />({productsCount} Items)</IconButton>
+                    <IconButton aria-label="ShoppingCartIcon" onClick={handleShow}><ShoppingCartIcon />({productsCount} )</IconButton>
                 </Navbar.Collapse>
             </Navbar>
             <Modal show={show} onHide={handleClose}>
