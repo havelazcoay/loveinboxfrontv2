@@ -5,6 +5,7 @@ import '../hojas-de-estilo/PreguntasFrecuentes.css';
 class FrequentQuestions extends Component {
     render(){
         return(
+            <div className= "Box">
             <div className= "PreguntasFrecuentes">
                 <ul>
                 <Category name= "Sobre nosotros" items ={[
@@ -23,6 +24,7 @@ class FrequentQuestions extends Component {
                 <Category name= "Seguridad" items= {["En Proceso"]}/>
                 <Category name= "Cuenta" items= {["En Proceso"]}/>
                 </ul>
+            </div>
             </div>
         );
         }
