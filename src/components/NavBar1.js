@@ -23,25 +23,25 @@ export default function NavBar1(){
         <ul>
           
           <li>
-            <a href="/Home"><FaHome/>Home</a>
+            <a href="/Home"><FaHome/>ﾠHome</a>
           </li>
           <li>
-            <a href="/Store"><FaShoppingBag/>Store</a>
+            <a href="/Store"><FaShoppingBag/>ﾠStore</a>
           </li>
           <li>
-            < a href="/Test"><FaThList/>Test</a>
+            < a href="/Test"><FaThList/>ﾠTest</a>
           </li>
           <li>
-            <a href="/About"><FaCommentAlt/>About</a>
+            <a href="/About"><FaCommentAlt/>ﾠAbout</a>
           </li>
           <li>
-            <a href="/FrequentQuestions"><FaQuestion/>Frequent Questions</a>
+            <a href="/FrequentQuestions"><FaQuestion/>ﾠFrequent Questions</a>
           </li>
           <li>
-            < a href="/Account"><FaUserAlt/>Account</a>
+            < a href="/Account"><FaUserAlt/>ﾠAccount</a>
           </li>
           <li>
-            <a href="/Profile"><FaUserCircle/>Profile</a>
+            <a href="/Profile"><FaUserCircle/>ﾠProfile</a>
           </li>
           <li>
             <a href="https://www.facebook.com/people/Love-In-Box-Colombia/100087441864694/" rel="noreferrer" target="_blank"><FaFacebookSquare/></a>
