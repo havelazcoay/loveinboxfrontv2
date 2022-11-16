@@ -28,9 +28,7 @@ export default function NavBar1(){
           <li>
             <a href="/Store"><FaShoppingBag/>ﾠStore</a>
           </li>
-          <li>
-            < a href="/Test"><FaThList/>ﾠTest</a>
-          </li>
+
           <li>
             <a href="/About"><FaCommentAlt/>ﾠAbout</a>
           </li>
@@ -56,3 +54,9 @@ export default function NavBar1(){
   </div>
   );
 }
+
+/*
+          <li>
+            < a href="/Test"><FaThList/>ﾠTest</a>
+          </li>
+*/
