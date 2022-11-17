@@ -8,8 +8,8 @@
 
 const productsArray = [
     {
-      id: 1,
-      name: "price_1M565BKBOvZP1x6C9NJp1bTR",
+      id: "price_1M565BKBOvZP1x6C9NJp1bTR",
+      name: "Hotwheels",
       productType: "Toy car",
       price: 8,
       rating: 5,
@@ -17,8 +17,8 @@ const productsArray = [
       description: "only another hotwheels toycar from mattel",
     },
     {
-      id: 2,
-      name: "price_1M56B7KBOvZP1x6CzzAQEdYw",
+      id: "price_1M56B7KBOvZP1x6CzzAQEdYw",
+      name: "Barbie",
       productType: "Barbie Doll",
       price: 15,
       rating: 4,
@@ -26,8 +26,8 @@ const productsArray = [
       description: "only another Barbie Doll from mattel",
     },
     {
-      id: 3,
-      name: "price_1M56BcKBOvZP1x6CQpLOePxD",
+      id: "price_1M56BcKBOvZP1x6CQpLOePxD",
+      name: "woody",
       productType: "action figure",
       price: 12,
       rating: 4,
@@ -36,8 +36,8 @@ const productsArray = [
     },
     
     {
-      id: 4,
-      name: "price_1M56C3KBOvZP1x6CadjnAiju",
+      id: "price_1M56C3KBOvZP1x6CadjnAiju",
+      name: "insector",
       productType: "RC car",
       price: 50,
       rating: 5,
@@ -45,8 +45,8 @@ const productsArray = [
       description: "the best RC car ever",
     },
     {
-      id: 5,
-      name: "price_1M56CfKBOvZP1x6CzUICJ6ty",
+      id: "price_1M56CfKBOvZP1x6CzUICJ6ty",
+      name: "funko apex",
       productType: "Funko",
       price: 18,
       rating: 5,
@@ -63,8 +63,8 @@ const productsArray = [
       description: "another hotwheels circuit",
     },
     {
-      id: 7,
-      name: "price_1M56DQKBOvZP1x6CARBVtw96",
+      id: "price_1M56DQKBOvZP1x6CARBVtw96",
+      name: "monopoly",
       productType: "board game",
       price: 30,
       rating: 4,
@@ -72,8 +72,8 @@ const productsArray = [
       description: "monopoly by Hasbro",
     },
     {
-      id: 8,
-      name: "price_1M56DpKBOvZP1x6Ctw4Q1SEj",
+      id: "price_1M56DpKBOvZP1x6Ctw4Q1SEj",
+      name: "Max Steel",
       productType: "action figure",
       price: 22,
       rating: 5,

@@ -1,12 +1,20 @@
-import {Button, Container, Navbar, Modal} from 'react-bootstrap';
+import { Button, Container, Navbar, Modal } from 'react-bootstrap';
 import { useState, useContext } from 'react';
 import { CartContext } from "../CartContext";
 import CartProduct from './CartProduct';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Product from '../components/Product';
 import IconButton from '@mui/material/IconButton';
+import { productsArray } from '../productsStore';
+import { loadStripe } from "@stripe/stripe-js";
+
+
+
+
 
 function NavbarComponent() {
+
+
     const cart = useContext(CartContext);
 
     const [show, setShow] = useState(false);
@@ -31,8 +39,6 @@ function NavbarComponent() {
 
     const productsCount = cart.items.reduce((sum, product) => sum + product.quantity, 0);
 
-    
-
     return (
         <>
 
@@ -51,18 +57,18 @@ function NavbarComponent() {
                     {productsCount > 0 ?
                         <>
                             <p>Items in your cart:</p>
-                            {cart.items.map( (currentProduct, idx) => (
+                            {cart.items.map((currentProduct, idx) => (
                                 <CartProduct key={idx} id={currentProduct.id} quantity={currentProduct.quantity}></CartProduct>
 
                             ))}
 
                             <h1>Total: {cart.getTotalCost().toFixed(2)}</h1>
-
-                            <Button variant="success" onClick={checkout}>
+                            <Button variant="success" onClick={checkout} >
                                 Purchase items!
                             </Button>
+                            
                         </>
-                    :
+                        :
                         <h1>There are no items in your cart!</h1>
                     }
                 </Modal.Body>
@@ -72,3 +78,32 @@ function NavbarComponent() {
 }
 
 export default NavbarComponent;
+
+
+/*
+
+
+<Button variant="success" onClick={redirectToCheckout} disabled={isLoading}>
+                                Purchase items!
+                            </Button>
+
+
+
+<button
+        className="checkout-button"
+        onClick={redirectToCheckout}
+        disabled={isLoading}
+      >
+        <div className="grey-circle">
+          <div className="purple-circle">
+            <img className="icon" src={CardIcon} alt="credit-card-icon" />
+          </div>
+        </div>
+        <div className="text-container">
+          <p className="text">{isLoading ? "Loading..." : "Buy"}</p>
+        </div>
+      </button>
+
+
+
+      */
