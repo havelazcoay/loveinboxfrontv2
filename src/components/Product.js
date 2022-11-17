@@ -169,8 +169,8 @@ function Product(props) {
 
 
 
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Body>
+      <Modal show={show} onHide={handleClose} >
+        <Modal.Body show={show}  >
           <Card sx={{ maxWidth: 345 }} onClick={OpenCard}>
             <CardHeader
               action={

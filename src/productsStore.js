@@ -1,11 +1,15 @@
-// Coffee: price_1LnUTFDM1jwCEz8OGoOSXiSM
-// Sunglasses: price_1LnUTxDM1jwCEz8OAqHYTwKQ
-// Camera: price_1LnUUoDM1jwCEz8OvxIcJ7to
+// Hotwheels: price_1M565BKBOvZP1x6C9NJp1bTR
+// barbie: price_1M56B7KBOvZP1x6CzzAQEdYw
+// woody: price_1M56BcKBOvZP1x6CQpLOePxD
+// Insector: price_1M56C3KBOvZP1x6CadjnAiju
+// Funko apex: price_1M56CfKBOvZP1x6CzUICJ6ty
+// Monopoly: price_1M56DQKBOvZP1x6CARBVtw96
+// Max steel: price_1M56DpKBOvZP1x6Ctw4Q1SEj
 
 const productsArray = [
     {
       id: 1,
-      name: "Hotwheels",
+      name: "price_1M565BKBOvZP1x6C9NJp1bTR",
       productType: "Toy car",
       price: 8,
       rating: 5,
@@ -14,7 +18,7 @@ const productsArray = [
     },
     {
       id: 2,
-      name: "Barbie",
+      name: "price_1M56B7KBOvZP1x6CzzAQEdYw",
       productType: "Barbie Doll",
       price: 15,
       rating: 4,
@@ -23,7 +27,7 @@ const productsArray = [
     },
     {
       id: 3,
-      name: "Woody",
+      name: "price_1M56BcKBOvZP1x6CQpLOePxD",
       productType: "action figure",
       price: 12,
       rating: 4,
@@ -33,7 +37,7 @@ const productsArray = [
     
     {
       id: 4,
-      name: "Insector",
+      name: "price_1M56C3KBOvZP1x6CadjnAiju",
       productType: "RC car",
       price: 50,
       rating: 5,
@@ -42,7 +46,7 @@ const productsArray = [
     },
     {
       id: 5,
-      name: "Funko Apex",
+      name: "price_1M56CfKBOvZP1x6CzUICJ6ty",
       productType: "Funko",
       price: 18,
       rating: 5,
@@ -60,7 +64,7 @@ const productsArray = [
     },
     {
       id: 7,
-      name: "Monopoly",
+      name: "price_1M56DQKBOvZP1x6CARBVtw96",
       productType: "board game",
       price: 30,
       rating: 4,
@@ -69,7 +73,7 @@ const productsArray = [
     },
     {
       id: 8,
-      name: "Max Steel",
+      name: "price_1M56DpKBOvZP1x6Ctw4Q1SEj",
       productType: "action figure",
       price: 22,
       rating: 5,
