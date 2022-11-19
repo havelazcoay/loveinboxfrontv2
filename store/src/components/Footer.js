@@ -29,10 +29,10 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6 text-center justify-content-around align-items-center">
+            <div className="col-md-3 col-sm-6 text-center justify-content-around align-items-center" style={{color:"#f8f9fa"}}>
               {/* column 2 */}
               <h4> CATEGORIES</h4>
-              <ul className="list-unstyled">
+              <ul className="list-unstyled" style={{color:"#f8f9fa"}}>
 
                 <li>Action Figures</li>
                 <li>Toycars</li>
@@ -41,23 +41,22 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6 text-center" >
+            <div className="col-md-3 col-sm-6 text-center" style={{color:"#f8f9fa"}} >
               {/* column 3 */}
               <h4> PAGES</h4>
               <ul className="list-unstyled">
-                <li >< a style={{ color: "#212529", textDecoration: "none" }} href="/Home" >Home</a></li>
-                <li >< a style={{ color: "#212529", textDecoration: "none" }} href="/Store" >Store</a></li>
-                <li >< a style={{ color: "#212529", textDecoration: "none" }} href="/Account" >My Account</a></li>
-                <li >< a style={{ color: "#212529", textDecoration: "none" }} href="/FrequentQuestions" >Frequent Questions</a></li>
+                <li >< a style={{ color: "#f8f9fa", textDecoration: "none" }} href="/Home" >Home</a></li>
+                <li >< a style={{ color: "#f8f9fa", textDecoration: "none" }} href="/Store" >Store</a></li>
+                <li >< a style={{ color: "#f8f9fa", textDecoration: "none" }} href="/Account" >My Account</a></li>
+                <li >< a style={{ color: "#f8f9fa", textDecoration: "none" }} href="/FrequentQuestions" >Frequent Questions</a></li>
 
               </ul>
             </div>
 
-            <div className="col-md-3 col-sm-6 text-center">
+            <div className="col-md-3 col-sm-6 text-center" style={{color:"#f8f9fa"}}>
               {/* column 4 */}
               <h4> CONTACT - US</h4>
-              <ul className="list-unstyled">
-                <li>Love in Box co</li>
+              <ul className="list-unstyled" style={{color:"#f8f9fa"}} >
                 <li>Bogota - Colombia</li>
                 <li>3131112244</li>
                 <li>Monday - Friday</li>
