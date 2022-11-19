@@ -27,7 +27,7 @@ const productsArray = [
     },
     {
       id: "price_1M56BcKBOvZP1x6CQpLOePxD",
-      name: "woody",
+      name: "Woody",
       productType: "action figure",
       price: 12,
       rating: 4,
@@ -46,7 +46,7 @@ const productsArray = [
     },
     {
       id: "price_1M56CfKBOvZP1x6CzUICJ6ty",
-      name: "funko apex",
+      name: "Funko apex",
       productType: "Funko",
       price: 18,
       rating: 5,
@@ -55,8 +55,8 @@ const productsArray = [
     },
     {
       id: 6,
-      name: "hotwheels",
-      productType: "pista",
+      name: "Hotwheels track",
+      productType: "track",
       price: 100,
       rating: 5,
       image: "pistahotwheels1.png",
@@ -64,7 +64,7 @@ const productsArray = [
     },
     {
       id: "price_1M56DQKBOvZP1x6CARBVtw96",
-      name: "monopoly",
+      name: "Monopoly",
       productType: "board game",
       price: 30,
       rating: 4,

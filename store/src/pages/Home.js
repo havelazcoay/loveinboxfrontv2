@@ -16,7 +16,7 @@ export default function Home() {
       <div className="contenedor-principal">
         <Example />
       </div>
-      <div style={{textAlign:"center"}}>
+      <div style={{textAlign:"center", fontSize:"xx-large"}}>
         <p> Los Mejor Valorados!  </p>   
       </div>
       <div >
@@ -24,7 +24,6 @@ export default function Home() {
           {productsArray.filter(product => product.rating > 4).map( filteredrating => (
             
             <div style={{textAlign:"center"}} key={filteredrating.rating}>
-              {filteredrating.name}
             <Col align="center" key={filteredrating.rating}>
                 <Product product={filteredrating} />
             </Col> 

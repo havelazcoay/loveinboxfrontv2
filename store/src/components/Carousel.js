@@ -11,18 +11,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
       const items = [
       {
         src: 'slide1.jpg',
-      altText: 'Slide 1',
-      caption: 'Slide 1'
+        caption: 'Hotwheels for all',
+        altText: 'find a big amount of hotwheels cars',
   },
       {
         src: 'slide2.jpg',
-      altText: 'Slide 2',
-      caption: 'Slide 2'
+      altText: 'We have a lot of toys fromyour favorities movies ',
+      caption: 'Your favorities from movies'
   },
       {
         src: 'slide3.jpg',
-      altText: 'Slide 3',
-      caption: 'Slide 3'
+      altText: 'Contact with our client support if you dont find your product',
+      caption: 'Find wath you search'
   }
       ];
 
@@ -72,8 +72,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
         onExited={this.onExited}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        <img src={item.src} caption={item.caption} alt={item.altText} />
+        <CarouselCaption captionText={item.altText} captionHeader={item.caption} />
       </CarouselItem>
       );
     });
