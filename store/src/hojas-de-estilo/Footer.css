@@ -7,3 +7,8 @@
     width: 100vw;
     padding: 1rem 1rem;
   }
+
+.a {
+  color: #f8f9fa;
+  text-decoration: underline;
+}

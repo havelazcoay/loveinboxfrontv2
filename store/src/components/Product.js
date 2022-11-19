@@ -113,7 +113,7 @@ function Product(props) {
           />
           <CardMedia
             component="img"
-            height="194"
+            height="190px"
             image={product.image}
             alt="hotwheels car "
           />

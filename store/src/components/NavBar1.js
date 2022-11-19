@@ -18,7 +18,7 @@ export default function NavBar1(){
   return( 
     <div className="nav">
       <a href="/" className="Site-tittle" target="_blank" rel="noreferrer">
-        <img src={"lovebox2.png"} alt="logo" />
+        <img src={"LoveInBoxMarketing2.png"} width="80px" alt="logo" />
       </a>
         <ul>
           
