@@ -22,8 +22,7 @@ export default function About() {
                 imagen='aa'
                 cargo='ingeniero de sistemas'
                 empresa='UNAL'
-                testimonio='Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis tellus tellus, hendrerit vitae blandit non, 
-                finibus sed augue. Ut et purus non risus ultrices pharetra. Nunc vel augue ultrices, scelerisque tellus consectetur, laoreet eros. Ut eu odio eu ipsum tempor iaculis eget ut magna. '/>
+                testimonio='Estudiante de ingeniería de sistemas en universidad nacional de colombia creador del front end utilizado para este proyecto. '/>
 
               <Tarjeta
                 nombre='Juan Felipe Bejarano'

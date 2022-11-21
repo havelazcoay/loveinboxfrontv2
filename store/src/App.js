@@ -10,7 +10,7 @@ import Success from './pages/Success';
 import About from "./pages/About";
 import { Administrator } from "./pages/Administrator";
 import { User } from "./pages/User";
-
+import { UpdateUser } from "./pages/UpdateUser";
 import { Profile } from "./pages/Profile";
 import CartProvider from './CartContext';
 import Navbar1 from "./components/NavBar1"; 
@@ -20,7 +20,6 @@ import { Login } from "./pages/Login";
 import { Register } from "./pages/Register";
 import { ForgotPassword } from "./pages/ForgotPassword";
 import FrequentQuestions from "./pages/FrequentQuestions";
-import { Sidebar } from "./pages/Sidebar";
 import Test from './pages/Test';
 // localhost:3000 -> Home
 // localhost:3000/success -> Success
@@ -50,7 +49,7 @@ function App() {
             <Route path="/Administrator" element={<Administrator />} />
             <Route path="/User" element={<User />} />
             <Route path="/Test" element={<Test />} />
-
+            <Route path="/UpdateUser" element={<UpdateUser />} />
             <Route path="/Profile" element={<Profile />} />
             <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
           </Routes>

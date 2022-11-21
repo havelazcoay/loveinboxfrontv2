@@ -14,7 +14,6 @@
     "express": "^4.18.2",
     "stripe": "^10.17.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/havelazcoay/loveinboxfrontv2.git"
@@ -23,5 +22,6 @@
     "url": "https://github.com/havelazcoay/loveinboxfrontv2/issues"
   },
   "homepage": "https://github.com/havelazcoay/loveinboxfrontv2#readme",
+  "devDependencies": {},
   "description": ""
 }
