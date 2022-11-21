@@ -1,19 +1,12 @@
-*{margin:8px; padding:0px}
-
 .Box{
     text-align: center;
     width: 90%; 
     background: rgb(255, 255, 255);
-    /* width: 800px; */
     margin: 100px auto 100px auto;
 }
-
 .frequent-questions{
     text-align: center;
-    /* width: 100%; */
     background: rgb(255, 255, 255);
-    /* width: 800px; */
-    /* margin: 108px auto 0 auto; */
 }
 .frequent-questions li{
     list-style-type: none;
