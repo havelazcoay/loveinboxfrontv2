@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
+//import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import { auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import LoveInBoxWeb from "../Imagenes/LoveInBoxWeb.jpg"
@@ -12,12 +13,13 @@ export const Login = () => {
 
   const signin = (e) =>{
     e.preventDefault();
+    
     auth.signInWithEmailAndPassword(email,password).then((auth) =>{
       console.log(auth);
+      
       if(auth){
         navigate("/")}
       }).catch(err=>alert(err.message))}
-
   
   return(
     <div className="login-main">
