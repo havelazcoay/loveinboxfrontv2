@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LoveInBoxWeb from "../Imagenes/LoveInBoxWeb.jpg"
 import '../hojas-de-estilo/Register.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal, ModalBody, ModalHeader, ModalFooter } from "reactstrap";
@@ -14,6 +15,9 @@ class Register extends Component {
             <div className="register-sub-main ">
               <div>
                 <div className="register-imgs">
+                  <div className="register-container-image">
+                    <img src={LoveInBoxWeb} alt="LoveInBoxWeb" className="register-profile"/>
+                  </div>
                 </div>
                 <div>
                   <div>

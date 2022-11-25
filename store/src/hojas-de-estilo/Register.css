@@ -2,13 +2,13 @@
     text-align: center;
     justify-content: center;
     display: flex;
-    padding: 125px 640px 125px 640px;
+    padding: 90px 640px 90px 640px;
     background-color: rgb(200, 130, 64);
 }
 .register-sub-main{
     display: flex;
     justify-content: center;
-    height: 688px;
+    height: 758px;
     width: 398px;
     box-shadow: 11px 12px 13px 12px rgb(207, 207, 207) ;
     padding-top: 30px;
