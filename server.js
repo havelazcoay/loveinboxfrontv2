@@ -6,6 +6,7 @@
 // Funko apex: price_1M56CfKBOvZP1x6CzUICJ6ty
 // Monopoly: price_1M56DQKBOvZP1x6CARBVtw96
 // Max steel: price_1M56DpKBOvZP1x6Ctw4Q1SEj
+//deploy
 
 const express = require('express');
 var cors = require('cors');
@@ -57,4 +58,4 @@ app.post("/checkout", async (req, res) => {
     }));
 });
 
-app.listen(4000, () => console.log("Listening on port 4000!"));
+app.listen(process.env.PORT || 4000, () => console.log("Listening on port 4000!"));
