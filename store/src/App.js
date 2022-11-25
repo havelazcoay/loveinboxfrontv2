@@ -17,8 +17,9 @@ import Navbar1 from "./components/NavBar1";
 import Footer from "./components/Footer";
 import { Account} from "./pages/Account";
 import { Login } from "./pages/Login";
-import { Register } from "./pages/Register";
+import Register from "./pages/Register";
 import { ForgotPassword } from "./pages/ForgotPassword";
+import { Sidebar } from "./pages/Sidebar";
 import FrequentQuestions from "./pages/FrequentQuestions";
 import Test from './pages/Test';
 // localhost:3000 -> Home
@@ -28,36 +29,40 @@ function App() {
   return (
     
     <CartProvider>
-      <Navbar1/>
-      
-      <div className='Container1'>
-      
-        <NavbarComponent></NavbarComponent>
+
+        <Navbar1/>
         
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<Store />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="Store" element={<Store />} />
-            <Route path="success" element={<Success />} />
-            <Route path="cancel" element={<Cancel />} />
-            <Route path="/Account" element={<Account />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Login" element={<Login />} />
-            <Route path="/Register" element={<Register />} />
-            <Route path="/ForgotPassword" element={<ForgotPassword />} />
-            <Route path="/Administrator" element={<Administrator />} />
-            <Route path="/User" element={<User />} />
-            <Route path="/Test" element={<Test />} />
-            <Route path="/UpdateUser" element={<UpdateUser />} />
-            <Route path="/Profile" element={<Profile />} />
-            <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
-          </Routes>
-        </BrowserRouter>
+
+        <div className='Container1'>
+
+          <NavbarComponent></NavbarComponent>
+          <BrowserRouter>
+          <Sidebar>
+            <Routes>
+              <Route index element={<Store />} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="Store" element={<Store />} />
+              <Route path="success" element={<Success />} />
+              <Route path="cancel" element={<Cancel />} />
+              <Route path="/Account" element={<Account />} />
+              <Route path="/About" element={<About />} />
+              <Route path="/Login" element={<Login />} />
+              <Route path="/Register" element={<Register />} />
+              <Route path="/ForgotPassword" element={<ForgotPassword />} />
+              <Route path="/Administrator" element={<Administrator />} />
+              <Route path="/User" element={<User />} />
+              <Route path="/Test" element={<Test />} />
+              <Route path="/UpdateUser" element={<UpdateUser />} />
+              <Route path="/Profile" element={<Profile />} />
+              <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
+            </Routes>
+            </Sidebar>
+          </BrowserRouter>
+          
+
+        </div>
         
-        
-      </div>
-      <Footer/>
+        <Footer/>
     </CartProvider>
   );
 }

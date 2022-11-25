@@ -5,7 +5,6 @@ import{
   FaUserAlt,
   FaCommentAlt,
   FaShoppingBag,
-  FaThList,
   FaFacebookSquare,
   FaInstagramSquare,
   FaWhatsappSquare,

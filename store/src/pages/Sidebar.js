@@ -5,14 +5,13 @@ import '../hojas-de-estilo/Sidebar.css';
 
 
 import{
+    FaBars, 
     FaHome,
     FaUserAlt,
     FaCommentAlt,
     FaShoppingBag,
-    FaThList,
-    FaBars,
-    FaRegUser,
-    FaStar
+    FaQuestion,
+    FaUserCircle
 }from 'react-icons/fa';
 
 
@@ -23,29 +22,34 @@ export const Sidebar = ({children}) => {
 
     const menuItem=[
         {
-        path:"/home",
-        name:"home",
+        path:"/Home",
+        name: "Home",
         icon:<FaHome/>
         },
         {
-        path:"/store",
-        name:"store",
+        path:"/Store",
+        name:"Store",
         icon:<FaShoppingBag/>
         },
         {
-        path:"/about",
-        name:"about",
-        icon:<FaThList/>
+        path:"/About",
+        name:"About",
+        icon:<FaCommentAlt/>
+        },
+        {
+        path:"/FrequentQuestions",
+        name:"Questions",
+        icon:<FaQuestion/>
         },
         {
         path:"/Account",
         name:"Account",
-        icon:<FaStar/>
+        icon:<FaUserAlt/>
         },
         {
-        path:"/in-progress",
-        name:"contact",
-        icon:<FaCommentAlt/>
+        path:"/Profile",
+        name:"Profile",
+        icon:<FaUserCircle/>
         },
     ]
     return(
@@ -54,6 +58,7 @@ export const Sidebar = ({children}) => {
                 <div className="sidebar-top-section">
                     <div style={{marginLeft: isOpen ? "0px" : "0px" }}  className="sidebar-bars">
                         <FaBars onClick={toggle} />
+                        <label className="sidebar-label">Love in Box</label>
                     </div>
                 </div>
                 {
@@ -65,7 +70,7 @@ export const Sidebar = ({children}) => {
                     ))
                 }
             </div>
-            <main>{children}</main>
+            <main className="sidebar-main">{children}</main>
         </div>
     );
 };
