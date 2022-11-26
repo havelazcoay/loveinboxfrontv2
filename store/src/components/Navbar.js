@@ -22,7 +22,7 @@ function NavbarComponent() {
     const handleShow = () => setShow(true);
 
     const checkout = async () => {
-        await fetch('http://localhost:4000/checkout', {
+        await fetch('http://51.79.221.225:4000/checkout', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
