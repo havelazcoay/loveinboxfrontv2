@@ -37,7 +37,7 @@ class FrequentQuestions extends Component {
                     </ul>
                 </div>
                 <div className= "frequent-questions">
-                    <a href="https://forms.gle/C7WYs4JV8wWo1L7E7" className="Site-tittle" target="_blank" rel="noreferrer">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4L5X9xlsmgasgVuvBQTJZ-PBpXsg7L2cqONdCC8jyO62H-w/viewform?usp=sf_link" className="Site-tittle" target="_blank" rel="noreferrer">
                         <button className= "frequent-questions-button">Usability Form</button>
                     </a>
                 </div>

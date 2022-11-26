@@ -1,10 +1,27 @@
 import React from "react";
 import { Tarjeta } from "../components/Tarjeta";
+import { TarjetaEmpresa } from "../components/TarjetaEmpresa";
 import '../App.css'
 
 export default function About() {
     return (
       <>
+        <div className="contenedor-principal">
+          <h1>LoveInBox</h1>
+        </div>
+        <div className="contenedor-principal">
+          <TarjetaEmpresa
+            nombre='Misión'
+            imagen='mision'
+            testimonio='Brindar un servicio e-Commerce de regalos y detalles personalizados, con posibilidad de enviar tus propias ideas y materializarlas a un bajo costo, con alcance en todo el territorio nacional. '/>
+          <TarjetaEmpresa
+            nombre='Visión'
+            imagen='vision'
+            testimonio='Para el año 2024 Love-In-Box será una empresa posicionada en el mercado nacional, dispuesta a atender las sugerencias de sus compradores, con precios al alcance del consumidor y un servicio al cliente efectivo y satisfactorio. '/>
+        </div>
+        <div className="contenedor-principal">
+          <h1>Developers</h1>
+        </div>
         <div className="About">
             <div className="contenedor-principal">
               <Tarjeta
@@ -19,7 +36,7 @@ export default function About() {
               <Tarjeta
                 nombre='Daniel Delgadillo'
                 pais='Colombia'
-                imagen='aa'
+                imagen='delgadillo'
                 cargo='ingeniero de sistemas'
                 empresa='UNAL'
                 testimonio='Estudiante de Ingeniería de Sistemas en Universidad Nacional de Colombia, creador del front end utilizado para este proyecto. '/>
