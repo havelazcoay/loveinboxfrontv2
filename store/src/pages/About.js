@@ -27,11 +27,10 @@ export default function About() {
               <Tarjeta
                 nombre='Harold Velazco'
                 pais='Colombia'
-                imagen='harold'
+                imagen='harold2'
                 cargo='ingeniero de sistemas'
                 empresa='UNAL'
-                testimonio='Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis tellus tellus, hendrerit vitae blandit non, 
-                finibus sed augue. Ut et purus non risus ultrices pharetra. Nunc vel augue ultrices, scelerisque tellus consectetur, laoreet eros. Ut eu odio eu ipsum tempor iaculis eget ut magna. '/>
+                testimonio='Estudiante de ingenieria de sistemas en la universidad nacional de colombia, creador del front end del proyecto e-store Love In Box'/>
 
               <Tarjeta
                 nombre='Daniel Delgadillo'
