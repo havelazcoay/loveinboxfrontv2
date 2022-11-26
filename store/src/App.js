@@ -37,7 +37,6 @@ function App() {
 
           <NavbarComponent></NavbarComponent>
           <BrowserRouter>
-          <Sidebar>
             <Routes>
               <Route index element={<Store />} />
               <Route path="/Home" element={<Home />} />
@@ -56,7 +55,6 @@ function App() {
               <Route path="/Profile" element={<Profile />} />
               <Route path="/FrequentQuestions" element={<FrequentQuestions/>} />
             </Routes>
-            </Sidebar>
           </BrowserRouter>
           
 
