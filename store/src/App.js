@@ -17,9 +17,9 @@ import Navbar1 from "./components/NavBar1";
 import Footer from "./components/Footer";
 import { Account} from "./pages/Account";
 import { Login } from "./pages/Login";
-import Register from "./pages/Register";
+import { Register } from "./pages/Register";
 import { ForgotPassword } from "./pages/ForgotPassword";
-import { Sidebar } from "./pages/Sidebar";
+import { TermsAndConditions } from "./pages/TermsAndConditions";
 import FrequentQuestions from "./pages/FrequentQuestions";
 import Test from './pages/Test';
 // localhost:3000 -> Home
@@ -47,6 +47,7 @@ function App() {
               <Route path="/About" element={<About />} />
               <Route path="/Login" element={<Login />} />
               <Route path="/Register" element={<Register />} />
+              <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
               <Route path="/ForgotPassword" element={<ForgotPassword />} />
               <Route path="/Administrator" element={<Administrator />} />
               <Route path="/User" element={<User />} />
