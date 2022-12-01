@@ -1,6 +1,6 @@
 .contenedor-Tarjeta{
   width: 1170px;
-  height: 300px;
+  min-height: 300px;
   margin: 10px 10px 50px;
   display: flex;
   align-items: center;

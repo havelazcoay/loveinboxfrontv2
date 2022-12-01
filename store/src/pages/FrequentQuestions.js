@@ -8,31 +8,31 @@ class FrequentQuestions extends Component {
             <div className= "box">
                 <div className= "frequent-questions">
                     <ul>
-                    <Category name= "Sobre nosotros" items ={[
-                    "¿A quién va dirigida la página?", "Primero al cliente, luego y más importante a todos los usuarios que quieran adquirir alguno de los productos ofertados.",
-                    "¿Cuál es el propósito de la página?", "La página es una solución informática para un emprendimiento dedicado a la venta de productos personalizados.",
-                    "¿Qué diferencia a tu negocio del resto?", "Precios competitivos, envíos inmediatos y una interfaz amigable, fluida e intuitiva.",
-                    "¿Tu empresa tiene algún esquema de color definido?", "Usamos tonos azules de fondo, colores pastel afines a este esquema azul-blanco.",
-                    "¿Quién estará involucrado en el proyecto?", "El proyecto está siendo desarrollado por el grupo 9 llamado “Love In Box” somos 4 integrantes cada uno encargado de un área del proyecto: front end, back end, base de datos y el líder de proyecto o scrum máster.",
-                    "¿Cómo es el funcionamiento de la página?", "La página cuenta con una página principal que da la bienvenida al usuario y expone el negocio, otra página para la tienda donde se encontrarán los productos y contará con búsqueda y filtros. Se contará con un sistema de Login y cuentas y tendrá maneras de comunicarse con un vendedor mediante correo o un botón que llevará al contacto mediante WhatsApp.",
-                    "¿Los usuarios podrán acceder a algún tipo de información de otro usuario?", "No, los usuarios no tendrán ningún tipo de interacción entre ellos.",
-                    "¿Cómo se mantendrá en funcionamiento la página?"," Las ventas deben proporcionar el sustento económico para mantener en funcionamiento la página, la página debe ",
-                    "¿La página genera algún tipo de documento?", "Los datos generados al hacer una compra deben ser almacenados en la base de datos. Al momento de realizar una compra los datos de la compra y del cliente deben generar una factura en formato png la cual será enviada al correo vinculado a la cuenta que realiza la compra."
+                    <Category name= "About us" items ={[
+                    "Who is the page for?", "First the customer, then and most importantly all users who want to purchase any of the products offered.",
+                    "What is the purpose of the page?", "The page is a computer solution for a business dedicated to the sale of personalized products.",
+                    "What differentiates your business from the rest?", "Competitive prices, immediate shipments and a friendly, fluid and intuitive interface.",
+                    "Does your company have a defined color scheme?", "We use blue background tones, pastel colors similar to this blue-white scheme.",
+                    "Who will be involved in the project?", "The project is being developed by a group of 9 called Love In Box we are 4 members each in charge of an area of ​​the project: front end, back end, database and the project leader or scrum master.",
+                    "How does the page work?", "The page has a main page that welcomes the user and exposes the business, another page for the store where the products will be found and will have search and filters. with a login system and accounts and will have ways to communicate with a seller by email or a button that will lead to contact via WhatsApp.",
+                    "Will users be able to access any type of information from another user?", "No, users will not have any type of interaction with each other.",
+                    "How will the page stay up and running?", "Sales must provide the financial support to keep the page running, the page must",
+                    "Does the page generate some kind of document?", "The data generated when making a purchase must be stored in the database. When making a purchase, the purchase and customer data must generate an invoice in png format which will be sent to the email linked to the account that makes the purchase."
                     ]}/>
-                    <Category name= "Métodos de pago" items= {[
-                    "¿Que metodos de pago tiene disponible?", "Para domicilios en Bogota contamos con pago en línea y pago contranetrega, para domicilios fuera de Bogota solo contamos con pago en línea.",
-                    "¿Tienen plazo de pago?", "No contamos con financiaciones directas a largo plazo."
+                    <Category name= "Payment methods" items= {[
+                    "What payment methods are available?", "For addresses in Bogota we have online payment and counter-delivery payment, for addresses outside of Bogota we only have online payment.",
+                    "Do you have a payment term?", "We do not have long-term direct financing."
                     ]}/>
-                    <Category name= "Entregas" items= {[
-                    "¿Tienen entregas puerta a puerta?", "Contamos con entregas puerta a puerta a nivel nacional."
+                    <Category name= "Deliveries" items= {[
+                    "Do you have door-to-door deliveries?", "We have door-to-door deliveries nationwide."
                     ]}/>
-                    <Category name= "Seguridad" items= {[
-                    "¿Cómo puedo saber si son confiables?", "Contamos cpn amplias referencias a nivel nacional.",
-                    "¿Que pasa con mis datos personales?", "Contamos con políticas de tratamiento de datos personales."
+                    <Category name= "Security" items= {[
+                    "How can I know if they are reliable?", "We have extensive references nationwide.",
+                    "What happens with my personal data?", "We have personal data processing policies."
                     ]}/>
-                    <Category name= "Cuenta" items= {[
-                    "¿Cómo puedo cambiar mi contraseña?", "En la página de profile encuentras la opción de cambio de contraseña.",
-                    "¿Cómo puedo acceder a mis pedidos", "En la página de profile encuentras la opción de ver pedidos."
+                    <Category name= "Bill" items= {[
+                    "How can I change my password?", "On the profile page you will find the option to change my password.",
+                    "How can I access my orders", "On the profile page you find the option to see orders."
                     ]}/>
                     </ul>
                 </div>

@@ -17,7 +17,7 @@ export default function Home() {
         <Example />
       </div>
       <div style={{textAlign:"center", fontSize:"xx-large"}}>
-        <p> Los Mejor Valorados!  </p>   
+        <p> BEST RATED!  </p>   
       </div>
       <div >
       <Row xs={1} md={5} className="g-4">

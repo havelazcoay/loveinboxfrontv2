@@ -14,8 +14,8 @@ export function Tarjeta(props) {
         alt='foto vacia'
         />
       <div className='contenedor-texto-tarjeta'>
-        <p className='nombre-tarjeta'><strong>{props.nombre}</strong> en {props.pais}</p>
-        <p className='cargo-tarjeta'>{props.cargo} en <strong>{props.empresa}</strong></p>
+        <p className='nombre-tarjeta'><strong>{props.nombre}</strong> in {props.pais}</p>
+        <p className='cargo-tarjeta'>{props.cargo} in <strong>{props.empresa}</strong></p>
         <p className='texto-tarjeta'>"{props.testimonio}"</p>
       </div>
     </div>

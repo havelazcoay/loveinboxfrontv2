@@ -6,21 +6,21 @@ import '../App.css'
 export default function About() {
     return (
       <>
-        <div className="contenedor-principal">
-          <h1>LoveInBox</h1>
+        <div style={{ textAlign: "center", fontSize: "xx-large" }}>
+          <h1>LoveInBox about section</h1>
         </div>
         <div className="contenedor-principal">
           <TarjetaEmpresa
-            nombre='Misión'
+            nombre='Mission'
             imagen='mision'
-            testimonio='Brindar un servicio e-Commerce de regalos y detalles personalizados, con posibilidad de enviar tus propias ideas y materializarlas a un bajo costo, con alcance en todo el territorio nacional. '/>
+            testimonio='Provide an e-Commerce service for gifts and personalized details, with the possibility of sending your own ideas and materializing them at a low cost, with a reach throughout the national territory. '/>
           <TarjetaEmpresa
             nombre='Visión'
             imagen='vision'
-            testimonio='Para el año 2024 Love-In-Box será una empresa posicionada en el mercado nacional, dispuesta a atender las sugerencias de sus compradores, con precios al alcance del consumidor y un servicio al cliente efectivo y satisfactorio. '/>
+            testimonio='By the year 2024 Love-In-Box will be a company positioned in the national market, willing to attend to the suggestions of its buyers, with prices within the reach of the consumer and an effective and satisfactory customer service.'/>
         </div>
-        <div className="contenedor-principal">
-          <h1>Developers</h1>
+        <div style={{ textAlign: "center", display:"flex", fontSize: "xx-large", height:"70px", flex: "wrap", justifyContent:"space-around", alignContent:"space-around", flexWrap:"wrap"}}>
+          <h1>Our Developers</h1>
         </div>
         <div className="About">
             <div className="contenedor-principal">
@@ -28,34 +28,33 @@ export default function About() {
                 nombre='Harold Velazco'
                 pais='Colombia'
                 imagen='harold2'
-                cargo='ingeniero de sistemas'
+                cargo='Systems engineering student'
                 empresa='UNAL'
-                testimonio='Estudiante de ingenieria de sistemas en la universidad nacional de colombia, creador del front end del proyecto e-store Love In Box'/>
+                testimonio='Systems engineering student at the National University of Colombia, creator of the front end of the Love In Box e-store project'/>
 
               <Tarjeta
                 nombre='Daniel Delgadillo'
                 pais='Colombia'
                 imagen='delgadillo'
-                cargo='ingeniero de sistemas'
+                cargo='Systems engineering student'
                 empresa='UNAL'
-                testimonio='Estudiante de Ingeniería de Sistemas en Universidad Nacional de Colombia, creador del front end utilizado para este proyecto. '/>
+                testimonio='Systems engineering student at the National University of Colombia, creator of the front end of the Love In Box e-store project'/>
 
               <Tarjeta
                 nombre='Juan Felipe Bejarano'
                 pais='Colombia'
                 imagen='ab'
-                cargo='Ingeniero de Sistemas'
+                cargo='Systems engineering student'
                 empresa='UNAL'
-                testimonio='Estudiante de Ingeniería de Sistemas. Encragado de la base de datos y el despliegue de la aplicación'/>
+                testimonio='Systems engineer student. In charge of the database and application deployment'/>
 
               <Tarjeta
                 nombre='Daniel Galvis'
                 pais='Colombia'
-                imagen='ac'
+                imagen='empty'
                 cargo='ingeniero de sistemas'
                 empresa='UNAL'
-                testimonio='Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis tellus tellus, hendrerit vitae blandit non, 
-                finibus sed augue. Ut et purus non risus ultrices pharetra. Nunc vel augue ultrices, scelerisque tellus consectetur, laoreet eros. Ut eu odio eu ipsum tempor iaculis eget ut magna. '/>
+                testimonio='Systems engineer student. In charge of the database and application deployment'/>
 
             </div>
         </div>

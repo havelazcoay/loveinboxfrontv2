@@ -12,7 +12,7 @@ function SearchBar() {
 
             <div align="center" >
                 <div className="seachbar" >
-                    <input  id="searchInput" type="text" placeholder="Search your products here..." style={{width: "40pc"}} onChange={(event) => {
+                    <input  id="searchInput" type="text" placeholder="SEARCH YOUR PRODUCTS HERE..." style={{width: "40pc"}} onChange={(event) => {
                         setSearchTerm(event.target.value);
                     }} />
                 </div>

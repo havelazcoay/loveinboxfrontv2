@@ -9,7 +9,8 @@ import{
   FaInstagramSquare,
   FaWhatsappSquare,
   FaQuestion,
-  FaUserCircle
+  FaUserCircle,
+  FaThList
 }from 'react-icons/fa';
 
 
@@ -22,23 +23,26 @@ export default function NavBar1(){
         <ul>
           
           <li>
-            <a href="/Home"><FaHome/>ﾠHome</a>
+            <a href="/Home">Homeﾠ<FaHome/></a>
           </li>
           <li>
-            <a href="/Store"><FaShoppingBag/>ﾠStore</a>
+            <a href="/Store">Storeﾠ<FaShoppingBag/></a>
           </li>
 
           <li>
-            <a href="/About"><FaCommentAlt/>ﾠAbout</a>
+            <a href="/About">Aboutﾠ<FaCommentAlt/></a>
           </li>
           <li>
-            <a href="/FrequentQuestions"><FaQuestion/>ﾠFrequent Questions</a>
+            <a href="/FrequentQuestions">Frequent Questionsﾠ<FaQuestion/></a>
           </li>
           <li>
-            < a href="/Account"><FaUserAlt/>ﾠAccount</a>
+            <a href="/Blog">Blogﾠ<FaThList/></a>
           </li>
           <li>
-            <a href="/Profile"><FaUserCircle/>ﾠProfile</a>
+            < a href="/Account">Accountﾠ<FaUserAlt/></a>
+          </li>
+          <li>
+            <a href="/Profile">Profileﾠ<FaUserCircle/></a>
           </li>
           <li>
             <a href="https://www.facebook.com/people/Love-In-Box-Colombia/100087441864694/" rel="noreferrer" target="_blank"><FaFacebookSquare/></a>

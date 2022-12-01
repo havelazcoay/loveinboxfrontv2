@@ -22,6 +22,7 @@ import { ForgotPassword } from "./pages/ForgotPassword";
 import { TermsAndConditions } from "./pages/TermsAndConditions";
 import FrequentQuestions from "./pages/FrequentQuestions";
 import Test from './pages/Test';
+import Blog from './pages/Blog';
 // localhost:3000 -> Home
 // localhost:3000/success -> Success
 
@@ -45,6 +46,7 @@ function App() {
               <Route path="cancel" element={<Cancel />} />
               <Route path="/Account" element={<Account />} />
               <Route path="/About" element={<About />} />
+              <Route path="/Blog" element={<Blog />} />
               <Route path="/Login" element={<Login />} />
               <Route path="/Register" element={<Register />} />
               <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
